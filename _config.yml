@@ -2,15 +2,15 @@
 title: "Javid Hussain"
 tagline: "Senior Technical Writer"
 description: "Senior Technical Writer specializing in user and API documentation, creating clear documentation that helps users achieve their goals."
-baseurl: "/Test"
-url: "https://ashfaqfarook.github.io"
+baseurl: "/PortfolioWebsite"
+url: "https://github.com/Javeed-Writer"
 
 # Author information
 author:
   name: "Muhamed Javid Hussain"
   email: "javidwriter@gmail.com"
   linkedin: "https://www.linkedin.com/in/muhamed-javid/"
-  github: "https://github.com/ashfaqfarook"
+  github: "https://github.com/Javeed-Writer"
 
 # Build settings
 markdown: kramdown
