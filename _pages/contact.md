@@ -34,7 +34,7 @@ permalink: /contact/
             </div>
             <div>
                 <i class="fab fa-github" style="color: #333; width: 20px; margin-right: 0.5rem;"></i>
-                <a href="https://github.com/ashfaqfarook" target="_blank" style="color: #333; text-decoration: none;">GitHub Portfolio</a>
+                <a href="https://github.com/Javeed-Writer" target="_blank" style="color: #333; text-decoration: none;">GitHub Portfolio</a>
             </div>
         </div>
         
@@ -134,7 +134,7 @@ permalink: /contact/
         <a href="https://www.linkedin.com/in/muhamed-javid/" target="_blank" class="btn btn-outline" style="border-color: #0077b5; color: #0077b5;">
             <i class="fab fa-linkedin"></i> LinkedIn
         </a>
-        <a href="https://github.com/ashfaqfarook" target="_blank" class="btn btn-outline" style="border-color: #333; color: #333;">
+        <a href="https://github.com/Javeed-Writer" target="_blank" class="btn btn-outline" style="border-color: #333; color: #333;">
             <i class="fab fa-github"></i> GitHub
         </a>
         <a href="mailto:javidwriter@gmail.com" class="btn btn-primary">
