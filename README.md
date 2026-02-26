@@ -4,7 +4,7 @@ A professional portfolio website showcasing technical writing expertise, API doc
 
 ## 🌐 Live Website
 
-Visit the portfolio at: **[https://ashfaqfarook.github.io/Test/](https://ashfaqfarook.github.io/Test/)**
+Visit the portfolio at: **[https://github.com/Javeed-Writer/PortfolioWebsite](https://github.com/Javeed-Writer/PortfolioWebsite)**
 
 ## 📋 About
 
@@ -78,7 +78,7 @@ This website is automatically deployed via GitHub Actions whenever changes are p
 
 - 📧 **Email**: [javidwriter@gmail.com](mailto:javidwriter@gmail.com)
 - 💼 **LinkedIn**: [muhamed-javid](https://www.linkedin.com/in/muhamed-javid/)
-- 🐱 **GitHub**: [ashfaqfarook](https://github.com/ashfaqfarook)
+- 🐱 **GitHub**: [Javeed-Writer](https://github.com/Javeed-Writer)
 
 ---
 
@@ -91,4 +91,5 @@ This repository serves as the source code for a professional technical writing p
 - Automated deployment workflows
 
 *Ready to discuss your technical documentation needs? [Get in touch!](mailto:javidwriter@gmail.com)*
+
 
