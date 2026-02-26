@@ -2,8 +2,8 @@
 title: "Javid Hussain"
 tagline: "Senior Technical Writer"
 description: "Senior Technical Writer specializing in user and API documentation, creating clear documentation that helps users achieve their goals."
-baseurl: "/Test"
-url: "https://ashfaqfarook.github.io"
+baseurl: "/PortfolioWebsite"
+url: "https://github.com/Javeed-Writer"
 
 # Author information
 author:
@@ -85,3 +85,4 @@ defaults:
       type: "knowledge_base"
     values:
       layout: "guide"
+
