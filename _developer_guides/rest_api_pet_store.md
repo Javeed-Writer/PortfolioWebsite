@@ -10,7 +10,7 @@ category: "developer_guides"
 
 # Working with Pet Store API
 
-## Overview
+# Overview
 This guide provides a list of API endpoints and how to create and delete an order.
 
 ## Table of Contents
@@ -20,13 +20,13 @@ This guide provides a list of API endpoints and how to create and delete an orde
 - [Creating a Pet Purchase Order](#creating-a-pet-purchase-order)
 
 
-## Pet Store Release
+# Pet Store Release
 In this release, we have introduced a new _petstore_ website. The petstore is a store where
 you can create and manage the pets, order a pet for purchase, and so on. See [petstore](https://petstore.swagger.io) for
 more information.
 
-## Pet Store API Endpoints
-### Petstore
+# Pet Store API Endpoints
+## Petstore
 
 - **[POST /pet](https://petstore.swagger.io/#/pet/addPet)**  
   Introduced a new API endpoint that is used to create a pet such as cat, dog, or puppy in the petstore.
@@ -42,7 +42,7 @@ more information.
   Introduced a new API endpoint that allows you to update an existing pet in the petstore.
 - **[DELETE /petId](https://petstore.swagger.io/#/pet/deletePet)**  
   Introduced a new API endpoint that allows you to delete a pet in the petstore.
-### Petstore Order Management
+## Petstore Order Management
 - **[POST /order](https://petstore.swagger.io/#/store/placeOrder)**  
   Introduced a new API endpoint that allows you to place an order for purchasing a pet in the petstore.
 - **[GET /orderId](https://petstore.swagger.io/#/store/getOrderById)**  
@@ -52,25 +52,25 @@ more information.
 - **[DELETE /orderId](https://petstore.swagger.io/#/store/deleteOrder)**  
   Introduced a new API endpoint that allows you to delete the purchase order in the petstore.
 
-## Sunset Endpoint
+# Sunset Endpoint
 The `GET /pet/findByTags` endpoint is deprecated and in the sunset phase.
 
 This endpoint retrieves the pets based on the tags which affect the emotional state of the pet lovers. You can use the `GET /pet/findByStatus` to retrieve the pets based on the pet's availability which is an alternative to the `GET /pet/findByTags`. By using the `GET /pet/findByStatus`, the pet lovers emotional state is compromised.
 
 **The sunset is scheduled on January 10, 2023.**
 
-## Creating a Pet Purchase Order
+# Creating a Pet Purchase Order
 _Learn how to create a pet purchase order._
 In this topic, you will learn how to create a pet, upload an image for the pet, and create a purchase order for the pet.
 
-### Endpoints
+## Endpoints
 
 - **[POST /pet](https://petstore.swagger.io/#/pet/addPet)** - creates a pet in the petstore
 - **[POST /uploadImage](https://petstore.swagger.io/#/pet/uploadFile)** - adds an image to the pet
 - **[POST /order](https://petstore.swagger.io/#/store/placeOrder)** - creates a purchase order for the pet
 - **[DELETE /orderId](https://petstore.swagger.io/#/store/deleteOrder)** - optionally, you can delete the purchase order
 
-### Basic Steps
+## Basic Steps
 
 1. Create a pet in your petstore.
 2. Add an image to the pet in your petstore.
@@ -79,11 +79,11 @@ In this topic, you will learn how to create a pet, upload an image for the pet, 
 
 <img src="./Petstore_process.png" alt="Pet Purchase Order Process" style="width:6.49097in;height:7in" />
 
-### Example
+## Example
 
 In this example, as a user, I would like to purchase a pet from the petstore.
 
-#### Step 1: Create a pet in petstore
+### Step 1: Creating a pet in petstore
 
 First, you must create a pet object with a category, tags, and status that needs to be added to the petstore.
 
@@ -145,7 +145,7 @@ This is the response for the POST request:
 }
 ```
 
-#### Step 2: Add an image to the pet in your petstore
+### Step 2: Adding an image to the pet in your petstore
 
 Secondly, add an image of the cat in the petstore. You can add the latest image of your cat.
 
@@ -172,7 +172,7 @@ This is the response for the POST request:
 }
 ```
 
-#### Step 3: Create a purchase order for the pet
+### Step 3: Creating a purchase order for the pet
 
 Finally, create a purchase order for the pet (8764: Garfield Dom) in the petstore.
 
@@ -208,7 +208,7 @@ This is the response for the POST request:
 }
 ```
 
-#### Step 4: Delete a purchase order
+### Step 4: Deleting a purchase order
 
 This is an optional step. If you have placed an inappropriate purchase order, you can delete it and place a new purchase order.
 

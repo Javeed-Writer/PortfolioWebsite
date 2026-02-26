@@ -16,32 +16,25 @@ category: "developer_guides"
 2. [Information about the card](#information-about-the-card)
    - [Front Side Details](#front-side-details)
    - [Back Side Details](#back-side-details)
-3. [Issue Bundle Flow](#issue-bundle-flow)
-4. [Create a card order](#create-a-card-order)
-   - [Issue a Bundle](#issue-a-bundle)
+3. [Issuing Bundle Flow](#issue-bundle-flow)
+4. [Creating a card order](#create-a-card-order)
+   - [Issuing a Bundle](#issue-a-bundle)
    - [API Reference](#api-reference)
    - [Request Parameters](#request-parameters)
    - [Response Parameters](#response-parameters)
    - [Status Codes and Errors](#status-codes-and-errors)
-5. [Generate Embossing File](#generate-embossing-file)
-   - [Get the Card ID](#get-the-card-id)
-   - [Generating the Embossing File](#generating-the-embossing-file)
+5. [Generating Embossing File](#generate-embossing-file)
+   - [Getting the Card ID](#get-the-card-id)
+   - [Creating the Embossing File](#generating-the-embossing-file)
 
 ---
 
-## Ordering a New Card for an Account Holder
 
-### Prerequisites
+# Prerequisites
 
-Before you order a new card in fusion make sure that you understand the following:
-- [Information about the card](#information-about-the-card)
-- [Issue Bundle Flow](#issue-bundle-flow)
+Before you order a new card in fusion make sure that you know about the card information and the [Issue Bundle Flow](#issue-bundle-flow).
 
-## Information about the card
-
-When you order a card, you need to know the details listed in the card.
-
-### Front Side Details
+## Front Side Card Information
 
 On the front side of the card, you can see the following details:
 - Zeta logo and the bank name
@@ -51,27 +44,27 @@ On the front side of the card, you can see the following details:
 - Your name
 - Your organization name
 
-### Back Side Details
+## Back Side Card Information
 
 On the back side of the card, you can see the following details:
 - Magnetic Stripe
 - CVV2
 
-## Issue Bundle Flow
+# Issue Bundle Flow
 
 Issue Bundle Flow is the primary workflow used to create card order for your Account Holders.
 
-**Short Description:** You can order a new card in fusion which is simple and adapts to your business and offers a solution that is secure and modern.
+You can order a new card in fusion which is simple and adapts to your business and offers a solution that is secure and modern.
 
 The Issue Bundle Flow involves the following:
-1. [Create card order](#create-a-card-order)
-2. [Generate embossing file](#generate-embossing-file)
+1. [Creating a card order](#create-a-card-order)
+2. [Creating an embossing file](#generate-embossing-file)
 
-## Create a card order
+## Creating a card order
 
 Creating a card order involves issuing a Bundle to the Account Holders. The fusion service processes the order and generates card data such as Card number, CCV1, CCV2, expiry.
 
-### Issue a Bundle
+### Issuing a Bundle
 
 Issue a bundle to the Account Holder.
 
@@ -165,7 +158,7 @@ The following table lists the returned HTTP status codes:
 
 ---
 
-## Generate Embossing File
+# Generating an Embossing File
 
 Embossing is the process of imprinting the card with various details such as card number, name, Account Holder name, Account Holder organization and the process is carried by an external vendor.
 
@@ -178,10 +171,10 @@ Once the card data is successfully generated, you must generate an embossing fil
 - The card ID is required to dispatch the embossed file to the external vendor
 
 The process involves:
-1. [Get the Card ID](#get-the-card-id)
-2. [Generating embossing file](#generating-the-embossing-file)
+1. [Getting the Card ID](#get-the-card-id)
+2. [Creating a embossing file](#generating-the-embossing-file)
 
-### Get the Card ID
+## Getting the Card ID
 
 Retrieve the card ID details.
 
@@ -192,14 +185,14 @@ Where:
 - `{ifiID}` is the ID of the IFI (Issuing Financial Institution)
 - `{orderID}` is the ID of the card order
 
-#### Headers
+### Headers
 
 | Header name | Description | Required | Values |
 |-------------|-------------|----------|--------|
 | Content-Type | The format of the data to be posted | Optional | application/json |
 | Authorization | The access token | Required | |
 
-#### Sample Request
+### Sample Request
 
 ```bash
 curl -X GET 'https://fusion.preprod.zeta.in/api/v1/ifi/140827/orders/e8f6e34f-1deb-4e28-84ee-5c4d73dd7364/cards/list' \
@@ -207,7 +200,7 @@ curl -X GET 'https://fusion.preprod.zeta.in/api/v1/ifi/140827/orders/e8f6e34f-1d
 -H 'Content-Type: application/json'
 ```
 
-#### Response Parameters
+###  Response Parameters
 
 | Element | Description | Type | Notes |
 |---------|-------------|------|-------|
@@ -245,7 +238,7 @@ curl -X GET 'https://fusion.preprod.zeta.in/api/v1/ifi/140827/orders/e8f6e34f-1d
 | addressLine4 | The 4th line of the delivery address | string | |
 | orderStatus | The status of the ordered card | string | |
 
-#### Sample Response
+### Sample Response
 
 ```json
 [
@@ -302,7 +295,7 @@ curl -X GET 'https://fusion.preprod.zeta.in/api/v1/ifi/140827/orders/e8f6e34f-1d
 ]
 ```
 
-#### Status Codes and Errors
+### Status Codes and Errors
 
 | Code | Description | Notes |
 |------|-------------|-------|
@@ -311,9 +304,9 @@ curl -X GET 'https://fusion.preprod.zeta.in/api/v1/ifi/140827/orders/e8f6e34f-1d
 | 404 | Order does not exist | Invalid order id |
 | 409 | Already Exists | The order already exists in the system |
 
-### Generating the Embossing File
+## Creating the Embossing File
 
-Fusion Embossing service generates the embossing file for each product type or IFI. To generate the embossing file, use the cardID generated using the GET method.
+Fusion Embossing service creates the embossing file for each product type or IFI. To create the embossing file, use the cardID generated using the GET method.
 
 **Method:** `POST`  
 **URL:** `https://fusion.preprod.zeta.in/api/v1/ifi/{ifiID}/cards/{cardID}/dispatch`
@@ -322,14 +315,14 @@ Where:
 - `{ifiID}` is the ID of the IFI
 - `{cardID}` is the ID of the ordered card
 
-#### Headers
+### Headers
 
 | Header name | Description | Required | Values |
 |-------------|-------------|----------|--------|
 | Content-Type | The format of the data to be posted | Optional | application/json |
 | Authorization | The access token for authorization | Required | |
 
-#### Sample Request
+### Sample Request
 
 ```bash
 curl -X POST 'https://fusion.preprod.zeta.in/api/v1/ifi/140827/cards/f0c1bb24-d800-4024-bd34-67a61aaab588/dispatch' \
@@ -361,7 +354,7 @@ curl -X POST 'https://fusion.preprod.zeta.in/api/v1/ifi/140827/cards/f0c1bb24-d8
 }'
 ```
 
-#### POST Body Parameters
+### POST Body Parameters
 
 | Element | Description | Type | Required | Notes |
 |---------|-------------|------|----------|-------|
@@ -386,7 +379,7 @@ curl -X POST 'https://fusion.preprod.zeta.in/api/v1/ifi/140827/cards/f0c1bb24-d8
 | welcome-kit.qrCode | The QR code for the welcome kit | string | Optional | |
 | welcome-kit.templateID | The Template ID of the welcome kit | string | Optional | |
 
-#### Response Parameters
+### Response Parameters
 
 | Element | Description | Type | Notes |
 |---------|-------------|------|-------|
@@ -418,7 +411,7 @@ curl -X POST 'https://fusion.preprod.zeta.in/api/v1/ifi/140827/cards/f0c1bb24-d8
 | orderStatus | The status of the ordered card | string | |
 | orderedAt | The date and time for which the new card is ordered | string | |
 
-#### Sample Response
+### Sample Response
 
 ```json
 {
@@ -458,7 +451,7 @@ curl -X POST 'https://fusion.preprod.zeta.in/api/v1/ifi/140827/cards/f0c1bb24-d8
 }
 ```
 
-#### Status Codes and Errors
+### Status Codes and Errors
 
 | Code | Description | Notes |
 |------|-------------|-------|

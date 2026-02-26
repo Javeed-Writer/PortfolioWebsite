@@ -1,13 +1,13 @@
 ---
 layout: page
-title: "Knowledge Base"
+title: "KB Articles"
 permalink: /knowledge-base/
 ---
 
 <div style="text-align: center; margin-bottom: 3rem;">
     <h1 style="font-size: 2.5rem; color: #2c3e50; margin-bottom: 1rem;">
         <i class="fas fa-database" style="color: #3498db; margin-right: 0.5rem;"></i>
-        Knowledge Base
+        KB Articles
     </h1>
     <p style="font-size: 1.2rem; color: #666; max-width: 800px; margin: 0 auto;">
         In-depth articles, platform overviews, and comprehensive documentation covering complex technical concepts, 

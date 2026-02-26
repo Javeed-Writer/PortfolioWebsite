@@ -9,6 +9,8 @@ category: "user_guides"
 ---
 # Adding Money Feature
 
+# Overview
+
 This guide provides step-by-step instructions for adding money to your Zeta for Employees cash card using either debit card or net banking methods.
 
 ## Table of Contents
@@ -19,25 +21,19 @@ This guide provides step-by-step instructions for adding money to your Zeta for 
   - [Add Money with the Debit Card](#add-money-with-the-debit-card)
   - [Add Money with Net Banking](#add-money-with-net-banking)
 
----
+# Adding Money in Zeta Application
 
-## Add Money in Zeta Application
+You can add money to your cash card in Zeta for Employees application which enables you to use your money instantly.
 
-**Short Description:** You can add money to your cash card in Zeta for Employees application which enables you to use your money instantly.
-
-**Pre-requisites:**
+## Prerequisites
 
 Make sure that you have installed and configured the **Zeta for Employees** mobile application in your mobile device from **Play Store**.
 
 The following two methods instruct you to add money to your cash card in **Zeta for Employees** mobile application:
-
-- [Adding Money Feature](#adding-money-feature)
-  - [Table of Contents](#table-of-contents)
-  - [Add Money in Zeta Application](#add-money-in-zeta-application)
   - [Add Money with the Debit Card](#add-money-with-the-debit-card)
   - [Add Money with Net Banking](#add-money-with-net-banking)
 
-## Add Money with the Debit Card
+# Adding Money using the Debit Card
 
 1. Open the **Zeta for Employees** application on your mobile device.
 2. Click the **Home** tab.
@@ -48,7 +44,7 @@ The following two methods instruct you to add money to your cash card in **Zeta 
 
 **Result**: The amount is successfully added to your cash using your debit card details.
 
-## Add Money with Net Banking
+# Adding Money using Net Banking
 
 1. Open the **Zeta for Employees** application on your mobile device.
 2. Click the **Home** tab.
@@ -70,5 +66,3 @@ The following two methods instruct you to add money to your cash card in **Zeta 
    The payment processing window displays, and the amount is added to your cash card.
 
 **Result**: The amount is successfully added to your cash card with a net banking option.
-
----

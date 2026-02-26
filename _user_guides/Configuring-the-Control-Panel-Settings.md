@@ -20,19 +20,19 @@ category: "user_guides"
   - [Hardware and Sound](#hardware-and-sound)
     - [Add a Device in your computer](#add-a-device-in-your-computer)
 
-## About
-The control panel is used to adjust your computer settings such as setting the  security . The control panel has the following sections:  
-- **System and Security**
-- **Network connectivity**
-- **Hardware and Sound**
-- **Programs** 
+# Overview
+The control panel is used to adjust your computer settings such as setting the  security. The control panel has the following sections:  
+- System and Security
+- Network connectivity
+- Hardware and Sound
+- Programs
 
 ## System and Security
 The system and security option is used to configure and maintain secureness of  the Windows Operating System.
 
 In this section, you can create a firewall to protect your PC from threats, check  the amount of RAM and the processor speed, create a backup of your file, and  storage spaces as well. 
 
-### Window Defender Firewall
+### Enabling the Window Defender Firewall
 You can enable the Window Defender Firewall for certain networks based on your preferences. 
 
 1. Go to **Control Panel** > **System and Security** > **Window Defender Firewall**
@@ -44,7 +44,7 @@ The Network connectivity option provides you to check the network status and  th
 
 In this section, you view your network status, connect to a network via SSID, and  you can change your homepage in the browser. 
 
-### Change of your Homepage in Web Browser 
+### Changing the Web Browser URL
 
 You can change your homepage address in your default web browser with the use of **Internet Options** in  **Control Panel** window. 
 
@@ -60,11 +60,14 @@ The hardware and sound option provide you to set devices such as printer,  mouse
 
 In this section, you can view the devices which are added to your computer. You can enable or disable the devices in the Device manager. 
 
-### Add a Device in your computer 
+### Adding a Device to your computer 
 
 You can add hardware devices such as Light Pen, Scanner in your computer through the **Control Panel**. 
 
 1. Go to **Control Panel** > **Network and Internet** > **Hardware and Sound** > **Devices and Printers**
 2. On the header section of the **Devices and Printers** window, select **Add a Device**. The **Add a Device** window opens and a list of available devices appears
-3. Select a device which you want to add to your computer and Click **Next** and then click **OK** A device has been added to your computer.
+3. Select a device which you want to add to your computer and Click **Next** and then click **OK**. A device has been added to your computer.
 
+## Programs
+Programs option assist you to configure programs and features for your computer.
+In this section, you can uninstall a program, view the installed updates, change the default program.

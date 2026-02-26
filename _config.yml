@@ -10,7 +10,7 @@ author:
   name: "Muhamed Javid Hussain"
   email: "javidwriter@gmail.com"
   linkedin: "https://www.linkedin.com/in/muhamed-javid/"
-  github: "https://github.com/Javeed-Writer"
+  github: "https://github.com/Javeed-Writer/PortfolioWebsite"
 
 # Build settings
 markdown: kramdown
@@ -40,16 +40,8 @@ navigation:
   - title: "Home"
     url: "/"
   - title: "Portfolio"
-    dropdown: true
-    items:
-      - title: "Developer Guides"
-        url: "/developer-guides/"
-      - title: "User Guides" 
-        url: "/user-guides/"
-      - title: "Knowledge Base"
-        url: "/knowledge-base/"
-  - title: "Resume"
-    url: "/resume/"
+    dropdown: false
+    url: "/portfolio/"
   - title: "Contact"
     url: "/contact/"
 
@@ -93,3 +85,4 @@ defaults:
       type: "knowledge_base"
     values:
       layout: "guide"
+

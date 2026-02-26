@@ -26,19 +26,17 @@ category: "user_guides"
 - [Creating a Page in SharePoint Online](#creating-a-page-in-sharepoint-online)
 - [Creating a Document Library Application in the SharePoint Online](#creating-a-document-library-application-in-the-sharepoint-online)
 
-# SharePoint Online
-**SharePoint Online** refers to website created and used by the organizations accessible by any device. 
-A  **SharePoint Online** is used to store, organize, share, and access information of the project in an  organization. 
-**SharePoint Online** can be used by the employees in the organization to share the  documents and information with co-workers, partners, and customers. 
+# Overview
+SharePoint Online refers to a website created and used by the organizations accessible by any device. A  SharePoint Online website is used to store, organize, share, and access information of the project in an  organization. The website can be used by the employees in the organization to share the  documents and information with co-workers, partners, and customers. 
 
 # Types of SharePoint Site 
-Two types of SharePoint site can be created:
+You can create two types of SharePoint site:
 - [Team](#team-site)
 - [Communication](#communication-site)
 
 # Signing to SharePoint Online
-## Pre-requisites
-- A web browser
+## Prerequisites
+You must have a web browser installed in your machine.
 ## Procedure
 1. Open the **Internet Explorer**.
 2. Enter the URL: `office.com/signin` on the Address field.
@@ -50,12 +48,13 @@ Two types of SharePoint site can be created:
 A **Team site** is used when you want to collaborate with other members of a team or with others on a  specific project. With the team site, all members or most members can contribute to the site and  information is restricted to those members and project stakeholders. The team can keep track of events,  manage tasks and more with a site connected to the **Office 365** group
 
 ## Creating a Team Site
-### Pre-requisites
+### Overview
+You can create a **Team site** for your team to maintain the documents and information within the team;  add owners and the respective team members on the site. You can add documents, information on the  site so that the team can collaborate the facts among themselves for better understanding and  utilization of the resources.
+
+### Prerequisites
 - If you’re a new user, create an account in **Office 365** to access the SharePoint online.
 - If you’re an existing user of the **Office 365**, sign in to the **SharePoint Online** account. 
 
-**Context:**
-You can create a **Team site** for your team to maintain the documents and information within the team;  add owners and the respective team members on the site. You can add documents, information on the  site so that the team can collaborate the facts among themselves for better understanding and  utilization of the resources.
 ### Procedure
 1. Click the **App Launcher** on the top left corner of the web Page.
 2. Select **SharePoint** tile. The **SharePoint Online** page opens.
@@ -64,10 +63,10 @@ You can create a **Team site** for your team to maintain the documents and infor
 5. On the **Site name** field, enter your team name. The **Group email address** and **Site Address** appears automatically. The availability of the site appears as green color.
 6. On the **Site description** field, enter the site description.
 7. On the **Privacy settings**, select one of the following: 
-- **Public – anyone in the organization can access this site** 
-Anyone in the organization can access this site to know the information. 
-- **Private – only members can access this site** 
-The site is only accessible to limited number of members.
+    - **Public – anyone in the organization can access this site** 
+    Anyone in the organization can access this site to know the information. 
+    - **Private – only members can access this site** 
+    The site is only accessible to limited number of members.
 8. Click **Next**.
 9.  On the **Add additional owners** field, enter the additional owners name in the organization.
 10.  On the **Add members** field, enter the members you want to be added to the team.
@@ -82,9 +81,9 @@ A **Communication Site** is used to share a content which are created a small se
 3. Click the **+Create site** button. The **Create a site** window opens.
 4. On the **Create a site** window, select **Communication site**. The **Communication Site** window opens.
 5. On the **Choose a design** field, click the drop-menu and choose anyone design. There are three types of design available: 
-- Topic 
-- Showcase 
-- Blank 
+    - Topic 
+    - Showcase 
+    - Blank 
 The preview of the design appears on the left side of the window.
 6. On the **Site name** field, enter your team name.   
 The **Group email address** and **Site Address** appears automatically. 
@@ -99,22 +98,22 @@ You can create a page in both the **Team Site** and **Communication Site** of th
 **Procedures**: 
 1. You can create a **Page** by selecting one of the following options:
 - On the **SharePoint Online Team Site** or **SharePoint Online Communication Site**, click the **+New** button and select **Page**.
-- On the top right corner of the **SharePoint Online** page, click the ![][image1]icon and select **Add a Page**.
+- On the top right corner of the **SharePoint Online** page, click the ![][image1] and select **Add a Page**.
 2. On the creation page, enter the title for the page. 
-You can add a background image for the title page by selecting the ![][image2]icon and an image for  the title of the page from the local directory on your computer.
+You can add a background image for the title page by selecting the ![][image2] and an image for  the title of the page from the local directory on your computer.
 3. Click **Save and Close**.
 4. On the **Page**, click **+** icon and then select one of the following options: 
-- **Featured Section** 
-- **Text**
-- **Image**
-- **File Viewer**
-- **Link**
-- **Embed**
-- **Highlighted Content**
-- **Section Layout**
-- **One column**
-- **Two columns**
-- **Three columns**
+    - **Featured Section** 
+    - **Text**
+    - **Image**
+    - **File Viewer**
+    - **Link**
+    - **Embed**
+    - **Highlighted Content**
+    - **Section Layout**
+    - **One column**
+    - **Two columns**
+    - **Three columns**
 5. For example, you can create two columns of a Sunflower page with the description of an image  on the left side and the image on the right side of the **Page** and select **Save and Close**.
 6. Once the **Page** is created, click **Publish**. 
 The **Published** page appears.

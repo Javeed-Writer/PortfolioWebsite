@@ -23,17 +23,17 @@ category: "developer_guides"
   - [Create or Update Filter Words](#create-or-update-filter-words)
   - [Remove Filter Words](#remove-filter-words)
 
-## Overview
+# Overview
 
 Aurora offers content filtering capabilities that serve as moderation tools to safeguard against the publication of objectionable materials in various areas, including posts, replies, tags, private messages, profile details, and member registrations.
 
 When community members use inappropriate language, the content filters detect it and take appropriate action. This may include blocking the content from being published or substituting the words with predetermined alternatives. Additionally, there are instances where the filters may log the objectionable content without manual intervention.
 
-## Create a Content Filter
+# Creating a Content Filter
 
 Use the `createContentFilter` mutation to create a content filter for your community. When a user creates a message with inappropriate words, the content filter will moderate and take necessary action as per the community policies.
 
-### Constraints
+## Constraints
 
 The constraints for the content filter are:
 
@@ -47,7 +47,7 @@ The constraints for the content filter are:
 | `allowDiacriticsFilter` | To allow the diacritics filter. (Boolean) | Optional |
 | `wordList` | The list of filter words and the corresponding replacement string that must be used in your community. | Optional |
 
-### Example
+## Example
 
 Use the GraphQL mutation below to create a Block Words filter in your community.
 
@@ -102,7 +102,7 @@ mutation {
 }
 ```
 
-## Retrieve Content Filters
+# Retrieving the Content Filters
 
 Use the `contentFilters` query to retrieve all the content filters used in your community. The fields used to retrieve content filters are the same as the ones used to create content filters.
 
@@ -159,7 +159,7 @@ query {
 }
 ```
 
-## Update a Content Filter
+# Updating a Content Filter
 
 Use the `editContentFilter` mutation to update the content filter name, its application, and notification.
 
@@ -214,7 +214,7 @@ mutation {
 }
 ```
 
-## Delete a Content Filter
+# Deleting a Content Filter
 
 Use the `deleteContentFilter` mutation to delete a content filter.
 
@@ -246,7 +246,7 @@ mutation {
 }
 ```
 
-## Create or Update Filter Words
+## Creating or Updating Filter Words
 
 Use the `createOrUpdateFilterWords` mutation to add or update the filter words of your content filter.
 
@@ -305,7 +305,7 @@ mutation {
 }
 ```
 
-## Remove Filter Words
+## Removing Filter Words
 
 Use the `removeFilterWords` mutation to remove filter words from your content filter.
 

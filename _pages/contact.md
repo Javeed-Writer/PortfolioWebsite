@@ -30,11 +30,11 @@ permalink: /contact/
             </div>
             <div style="margin-bottom: 1rem;">
                 <i class="fab fa-linkedin" style="color: #0077b5; width: 20px; margin-right: 0.5rem;"></i>
-                <a href="https://www.linkedin.com/in/muhamed-javid/" target="_blank" style="color: #333; text-decoration: none;">LinkedIn Profile</a>
+                <a href="https://www.linkedin.com/in/muhamed-javid/" target="_blank" style="color: #333; text-decoration: none;">Muhamed Javid</a>
             </div>
             <div>
                 <i class="fab fa-github" style="color: #333; width: 20px; margin-right: 0.5rem;"></i>
-                <a href="https://github.com/Javeed-Writer" target="_blank" style="color: #333; text-decoration: none;">GitHub Portfolio</a>
+                <a href="https://github.com/Javeed-Writer/PortfolioWebsite" target="_blank" style="color: #333; text-decoration: none;">GitHub Portfolio</a>
             </div>
         </div>
         
@@ -92,53 +92,5 @@ permalink: /contact/
                 <li>Any specific requirements or preferences</li>
             </ul>
         </div>
-    </div>
-</div>
-
-<div style="background: #2c3e50; color: white; padding: 3rem 2rem; border-radius: 12px; text-align: center;">
-    <h2 style="margin-bottom: 1.5rem; font-size: 2rem;">
-        <i class="fas fa-clock" style="color: #3498db; margin-right: 0.5rem;"></i>
-        Response Time
-    </h2>
-    <p style="font-size: 1.1rem; margin-bottom: 2rem; opacity: 0.9; max-width: 600px; margin-left: auto; margin-right: auto;">
-        I typically respond to project inquiries within 24-48 hours. For urgent requests or quick questions, 
-        feel free to mention it in your subject line.
-    </p>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; margin-top: 2rem;">
-        <div>
-            <div style="font-size: 2rem; margin-bottom: 0.5rem;">⚡</div>
-            <h4>Quick Response</h4>
-            <p style="opacity: 0.8; font-size: 0.9rem;">Usually within 24-48 hours</p>
-        </div>
-        <div>
-            <div style="font-size: 2rem; margin-bottom: 0.5rem;">💬</div>
-            <h4>Detailed Discussion</h4>
-            <p style="opacity: 0.8; font-size: 0.9rem;">Thorough project consultation</p>
-        </div>
-        <div>
-            <div style="font-size: 2rem; margin-bottom: 0.5rem;">📋</div>
-            <h4>Clear Proposals</h4>
-            <p style="opacity: 0.8; font-size: 0.9rem;">Detailed scope and timeline</p>
-        </div>
-    </div>
-</div>
-
-<div style="margin-top: 3rem; text-align: center;">
-    <h3 style="color: #2c3e50; margin-bottom: 1rem;">
-        Prefer a Different Platform?
-    </h3>
-    <p style="color: #666; margin-bottom: 2rem;">
-        Connect with me on your preferred professional network
-    </p>
-    <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-        <a href="https://www.linkedin.com/in/muhamed-javid/" target="_blank" class="btn btn-outline" style="border-color: #0077b5; color: #0077b5;">
-            <i class="fab fa-linkedin"></i> LinkedIn
-        </a>
-        <a href="https://github.com/Javeed-Writer" target="_blank" class="btn btn-outline" style="border-color: #333; color: #333;">
-            <i class="fab fa-github"></i> GitHub
-        </a>
-        <a href="mailto:javidwriter@gmail.com" class="btn btn-primary">
-            <i class="fas fa-envelope"></i> Email
-        </a>
     </div>
 </div>

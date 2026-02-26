@@ -19,7 +19,7 @@ category: "developer_guides"
 
 ---
 
-## About Bypass Media Moderation
+# Overview
 
 The bypass media moderation permission empowers members to share visual and multimedia content, including images, videos, and attachments, instantaneously. This feature circumvents the potential delays that would typically arise from a moderation review process, providing an efficient member experience where timely content sharing is essential.
 
@@ -36,7 +36,7 @@ You can set this permission at the following levels:
 
 > **Note:** Only Admins and Moderators can set this permission for your community.
 
-## Query to Fetch the Permission
+# Fetching the Permission
 
 You can use the below query to view your community bypass media moderation permission.
 
@@ -66,11 +66,11 @@ You can use the below query to view your community bypass media moderation permi
 }
 ```
 
-## Set the Bypass Media Moderation Permission
+# Setting the Bypass Media Moderation Permission
 
 > **Note:** Only Admins and Moderators can set this permission for your community.
 
-### Setting Community-Level Permissions
+## Setting the Community-Level Permissions
 
 Use the `setCommunityPermissions` mutation to set the bypass media moderation permission for your community.
 
@@ -106,7 +106,7 @@ mutation {
 }
 ```
 
-### Setting Role-Based Permissions
+## Setting the Role-Based Permissions
 
 Use the `setCommunityPermissionsForRole` mutation to set bypass media moderation permission for a specific role at the community level.
 
