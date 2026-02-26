@@ -1,0 +1,87 @@
+# Site settings
+title: "Javid Hussain"
+tagline: "Senior Technical Writer"
+description: "Senior Technical Writer specializing in user and API documentation, creating clear documentation that helps users achieve their goals."
+baseurl: "/Test"
+url: "https://ashfaqfarook.github.io"
+
+# Author information
+author:
+  name: "Muhamed Javid Hussain"
+  email: "javidwriter@gmail.com"
+  linkedin: "https://www.linkedin.com/in/muhamed-javid/"
+  github: "https://github.com/Javeed-Writer/PortfolioWebsite"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Collections
+collections:
+  developer_guides:
+    output: true
+    permalink: /:collection/:name/
+  user_guides:
+    output: true
+    permalink: /:collection/:name/
+  knowledge_base:
+    output: true
+    permalink: /:collection/:name/
+
+# GitHub Pages settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Navigation
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Portfolio"
+    dropdown: false
+    url: "/portfolio/"
+  - title: "Contact"
+    url: "/contact/"
+
+# Exclude from processing
+exclude:
+  - README.md
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Include
+include:
+  - _pages
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "developer_guides"
+    values:
+      layout: "guide"
+  - scope:
+      path: ""
+      type: "user_guides"
+    values:
+      layout: "guide"
+  - scope:
+      path: ""
+      type: "knowledge_base"
+    values:
+      layout: "guide"

@@ -1,0 +1,42 @@
+<!-- Navigation include -->
+<nav class="site-nav">
+    <div class="nav-brand">
+        <a class="site-title" href="{{ '/' | relative_url }}">
+            {{ site.author.name }}
+        </a>
+        <p class="site-tagline">{{ site.tagline }}</p>
+    </div>
+    
+    <div class="nav-menu">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger" class="nav-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        
+        <div class="nav-wrapper">
+            {% for item in site.navigation %}
+                {% if item.dropdown %}
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle">
+                            {{ item.title }}
+                            <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                            {% for subitem in item.items %}
+                                <a href="{{ subitem.url | relative_url }}" class="dropdown-link">
+                                    {{ subitem.title }}
+                                </a>
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% else %}
+                    <a href="{{ item.url | relative_url }}" class="nav-link">
+                        {{ item.title }}
+                    </a>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</nav>
