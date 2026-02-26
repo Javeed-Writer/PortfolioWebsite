@@ -22,14 +22,6 @@ This portfolio showcases the technical writing work of **Muhamed Javid Hussain**
 - Release notes and technical specifications
 - Platform overviews and system documentation
 
-## 🛠 **Built With**
-
-- **Jekyll** - Static site generator
-- **GitHub Pages** - Hosting and automatic deployment
-- **GitHub Actions** - Automated build and deployment pipeline
-- **Custom CSS** - Responsive design with modern aesthetics
-- **Font Awesome** - Professional icons and visual elements
-
 ## 📁 **Content Structure**
 
 The website organizes content into three main collections:
@@ -51,26 +43,6 @@ The website organizes content into three main collections:
 └── 🏦 Zeta Fusion Platform Overview
 ```
 
-## 🚀 **Deployment**
-
-This website is automatically deployed via GitHub Actions whenever changes are pushed to the main branch. No manual deployment or local setup required.
-
-### **Automatic Features:**
-- ✅ Builds automatically on every commit
-- ✅ Optimized for GitHub Pages hosting  
-- ✅ SEO-friendly with structured data
-- ✅ Mobile-responsive design
-- ✅ Fast loading and accessible
-
-## 📱 **Features**
-
-- **📱 Responsive Design**: Seamless experience on desktop, tablet, and mobile
-- **🎨 Modern UI**: Clean, professional design with smooth animations
-- **🔍 SEO Optimized**: Proper meta tags and semantic HTML structure
-- **⚡ Fast Loading**: Optimized assets and efficient styling
-- **♿ Accessible**: WCAG compliant with proper contrast and navigation
-- **🧭 Easy Navigation**: Organized content with intuitive menu structure
-
 ## 💬 **Contact & Collaboration**
 
 **Muhamed Javid Hussain**  
@@ -82,14 +54,7 @@ This website is automatically deployed via GitHub Actions whenever changes are p
 
 ---
 
-### 📝 **About This Repository**
-
-This repository serves as the source code for a professional technical writing portfolio. It demonstrates expertise in:
-- Technical documentation strategy
-- Modern web development practices  
-- Content organization and user experience
-- Automated deployment workflows
-
 *Ready to discuss your technical documentation needs? [Get in touch!](mailto:javidwriter@gmail.com)*
+
 
 
